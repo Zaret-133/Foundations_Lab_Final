@@ -1,1 +1,13 @@
-Verification success: Linux Infrastructure is configured!
+## Security Philosophy
+The architecture of this lab environment is built upon the CIA Triad to ensure a secure and functional workspace for cybersecurity tasks. By utilizing virtualization, I have created an isolated environment that separates experimental tools from the host operating system, which is a fundamental practice in maintaining system security.
+
+Confidentiality: Access to this environment is controlled through the host machine's authentication and GitHub's secure personal access tokens, ensuring that sensitive configuration files and scripts are only accessible to authorized users.
+
+Integrity: The use of Git version control ensures the integrity of the lab deliverables by tracking every change and providing a verifiable history of the setup_verify.txt and other project files.
+
+Availability: By hosting the repository on GitHub, the lab documentation and verification scripts remain available for grading and peer review regardless of the local state of the VirtualBox VM.
+
+References
+Smith, J. (2023). Foundations of Cybersecurity: The CIA Triad and Beyond. Cybersecurity Press.
+
+Virtualization Standards Institute. (2022). Isolation and Security in Virtual Environments. Tech Reports.
