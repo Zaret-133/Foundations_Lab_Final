@@ -1,0 +1,5 @@
+Log Path: /var/log/syslog
+Mission Path: /opt/alpha/mission.txt
+Mission Secret: MISSION SECURE: ARCHIMEDES-2026
+Token Path: /var/tmp/.blackout/token.txt
+Token Secret: TOKEN: 99283745
