@@ -1,0 +1,7 @@
+Results of the Ping Test
+
+Question 1: Did the ping reach Google, or did it fail? what does this prove about your network configuration?
+ The ping test to google.com resulted in a Temporary failure in name resolution. This confirms that the VM is successfully isolatedd from the internet and the local network. It proves the sandbox is operating in a Host-Only or air-gapped state, ensuring that no data can leak out and no malicious traffic can reach external command and control servers.
+
+Question 2: Why is Bridged mode dangerous when handling malware?
+ Bridged mode is dangerous bacause it treats the virtual machine as a physical device on my actual home network. If malware were executed in Bridged Mode, it could see every other device in my home like my router, phone or other computers. This gives the malware a direct map to spread laterally cross my local network, potentially infecting my host machine or stealing sensitive data from other connected devices. 
